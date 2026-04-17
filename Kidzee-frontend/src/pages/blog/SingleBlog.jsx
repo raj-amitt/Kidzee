@@ -27,7 +27,7 @@ const SingleBlog = () => {
       {/* 🖼️ COVER IMAGE */}
       {blog.coverImage && (
         <img
-          src={`http://localhost:5000/${blog.coverImage}`}
+          src={`/${blog.coverImage}`}
           className="w-full max-h-[400px] object-cover rounded mb-6"
           alt="cover"
         />
@@ -60,7 +60,7 @@ const SingleBlog = () => {
               {sec.images.map((img, idx) => (
                 <img
                   key={idx}
-                  src={`http://localhost:5000/${img}`}
+                  src={`/${img}`}
                   className="w-full rounded shadow-sm"
                   alt="blog"
                 />

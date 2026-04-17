@@ -98,7 +98,7 @@ const FolderAdmin = () => {
             <div key={i} className="relative group">
 
               <img
-                src={`http://localhost:5000/${img}`}
+                src={`/${img}`}
                 className="w-full aspect-[4/5] object-cover rounded"
               />
 

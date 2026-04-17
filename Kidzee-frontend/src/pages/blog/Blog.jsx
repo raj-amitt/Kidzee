@@ -35,7 +35,7 @@ const Blog = () => {
           >
 
             <img
-              src={`http://localhost:5000/${blog.coverImage}`}
+              src={`/${blog.coverImage}`}
               className="w-full h-48 object-cover rounded-t"
             />
 

@@ -1,35 +1,25 @@
 import { useState } from "react";
-
+import API from "../../api/axios";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleLogin = async () => {
-    try {
-      const res = await fetch("http://localhost:5000/api/auth/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email, password }),
-      });
 
-      const data = await res.json();
 
-      if (!res.ok) {
-        alert(data.message);
-        return;
-      }
+const handleLogin = async () => {
+  try {
+    const res = await API.post("/auth/login", {
+      email,
+      password,
+    });
 
-      localStorage.setItem("token", data.token);
+    localStorage.setItem("token", res.data.token);
 
-      window.location.href = "/admin";
-    } catch (err) {
-      console.error(err);
-      alert("Login failed");
-    }
-  };
-
+    window.location.href = "/admin";
+  } catch (err) {
+    alert(err.response?.data?.message || "Login failed");
+  }
+};
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#F3EDF7]">
       <div className="bg-white p-8 rounded-xl shadow-md w-full max-w-sm">

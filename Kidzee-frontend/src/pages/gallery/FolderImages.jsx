@@ -33,7 +33,7 @@ const FolderImages = () => {
           <div key={index} className="break-inside-avoid">
 
             <img
-              src={`http://localhost:5000/${img}`}
+              src={`/${img}`}
               alt=""
               className="w-full rounded-lg shadow hover:scale-105 transition duration-300"
             />

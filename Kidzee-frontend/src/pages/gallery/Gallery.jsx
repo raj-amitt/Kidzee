@@ -39,7 +39,7 @@ const Gallery = () => {
             {/* IMAGE */}
             {folder.images.length > 0 && (
               <img
-                src={`http://localhost:5000/${folder.images[0]}`}
+                src={`/${folder.images[0]}`}
                 alt=""
                 className="w-full h-48 object-cover rounded-lg"
               />

@@ -88,12 +88,12 @@ const GalleryAdmin = () => {
             >
               {/* Thumbnail (if exists) */}
               {f.images?.length > 0 && (
-                <img
-                  src={`http://localhost:5000/${f.images[0]}`}
-                  alt=""
-                  className="w-full h-32 object-cover rounded mb-2"
-                />
-              )}
+  <img
+    src={`/${f.images[0]}`}
+    alt=""
+    className="w-full h-32 object-cover rounded mb-2"
+  />
+)}
 
               <h3 className="text-center font-semibold">{f.name}</h3>
             </div>
