@@ -142,16 +142,19 @@ export const uploadImages = async (req, res) => {
     const processedImages = [];
 
     for (let file of req.files) {
-      const filename = Date.now() + ".webp";
-      const filepath = path.join(folderPath, filename);
+  const filename = Date.now() + ".webp";
+  const filepath = path.join(folderPath, filename);
 
-      await sharp(file.buffer)
-        .resize({ width: 1200 })
-        .webp({ quality: 70 })
-        .toFile(filepath);
+  await sharp(file.path)
+    .resize({ width: 1200 })
+    .webp({ quality: 70 })
+    .toFile(filepath);
 
-      processedImages.push(filepath.replace(/\\/g, "/"));
-    }
+  // delete temp file
+  fs.unlinkSync(file.path);
+
+  processedImages.push(filepath.replace(/\\/g, "/"));
+}
 
     gallery.images.push(...processedImages);
     await gallery.save();

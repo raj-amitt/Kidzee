@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv-flow";
+import dotenv from "dotenv";
 import contactRoutes from "./routes/contactRoutes.js";
 import connectDB from "./config/db.js";
 import { globalLimiter } from "./middleware/ratelimitor.js";

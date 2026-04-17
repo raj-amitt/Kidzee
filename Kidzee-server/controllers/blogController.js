@@ -57,14 +57,17 @@ export const createBlog = async (req, res) => {
     });
 
     // Handle files
-    for (let file of req.files) {
+  for (let file of req.files) {
   const filename = Date.now() + ".webp";
   const newPath = path.join(blogDir, filename);
 
-  await sharp(file.buffer)
+  await sharp(file.path)
     .resize({ width: 1200 })
     .webp({ quality: 70 })
     .toFile(newPath);
+
+  // delete temp file
+  fs.unlinkSync(file.path);
 
   const finalPath = newPath.replace(/\\/g, "/");
 
