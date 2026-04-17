@@ -172,7 +172,7 @@ const Contact = () => {
 
             <div className="flex gap-4 text-xl">
               <a
-                href="https://wa.me/914567649378"
+                href="https://wa.me/917415750940"
                 target="_blank"
                 rel="noopener noreferrer"
               >

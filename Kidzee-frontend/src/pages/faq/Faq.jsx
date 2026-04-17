@@ -142,7 +142,7 @@ const Faq = () => {
 
       <div className="text-left">
         <p className="font-heading text-gray-800 text-sm">Call Us Directly</p>
-        <p className="font-body text-gray-500 text-xs">+91 45676 49378</p>
+        <p className="font-body text-gray-500 text-xs">+91 7415750940</p>
       </div>
     </div>
 
@@ -156,7 +156,7 @@ const Faq = () => {
       <div className="text-left">
         <p className="font-heading text-gray-800 text-sm">Visit Us</p>
         <p className="font-body text-gray-500 text-xs">
-          Shipra Suncity, Indirapuram, Ghaziabad.
+          8/3 & 8/4 Palm Road, Shipra Suncity,Indirapuram
         </p>
       </div>
     </div>

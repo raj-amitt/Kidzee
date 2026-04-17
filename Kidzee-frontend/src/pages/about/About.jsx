@@ -27,7 +27,7 @@ const About = () => {
 
             {/* Heading */}
             <h2 className="font-heading text-3xl sm:text-4xl mb-6">
-              Welcome Kidzee Shipra Suncity
+              Welcome Kidzee Shipra Suncity, Indirapuram
             </h2>
 
             {/* Paragraphs */}

@@ -77,25 +77,25 @@ const Footer = () => {
 
               <li>
                 <NavLink to="/programs" className={linkClass}>
-                  Playgroup (1.5–2.5 Yrs)
+                  Playgroup (2-3 Yrs)
                 </NavLink>
               </li>
 
               <li>
                 <NavLink to="/programs" className={linkClass}>
-                  Nursery (2.5–3.5 Yrs)
+                  Nursery (3-4 Yrs)
                 </NavLink>
               </li>
 
               <li>
                 <NavLink to="/programs" className={linkClass}>
-                  Junior KG (3.5–4.5 Yrs)
+                  Junior KG (4-5 Yrs)
                 </NavLink>
               </li>
 
               <li>
                 <NavLink to="/programs" className={linkClass}>
-                  Senior KG (3.5–4.5 Yrs)
+                  Senior KG (5-6 Yrs)
                 </NavLink>
               </li>
 
@@ -115,7 +115,7 @@ const Footer = () => {
               <li>+91 98765 43210</li>
               <li>info@kidzeeshiprasuncity.com</li>
               <li>
-                Shipra Suncity, Indirapuram <br />
+                8/3 & 8/4 Palm Road, Shipra Suncity,Indirapuram <br />
                 Ghaziabad, Uttar Pradesh
               </li>
             </ul>
@@ -125,7 +125,7 @@ const Footer = () => {
 
         {/* Divider */}
         <div className="border-t border-gray-400/30 mt-12 pt-6 text-center font-body text-sm text-gray-200">
-          © 2026 Kidzee Shipra Suncity. All Rights Reserved. | Admissions Open For 2026–27
+          © 2026 Kidzee 8/3 & 8/4 Palm Road, Shipra Suncity,Indirapuram. All Rights Reserved. | Admissions Open For 2026–27
         </div>
 
       </div>

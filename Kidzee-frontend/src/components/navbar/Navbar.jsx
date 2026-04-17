@@ -23,7 +23,7 @@ const Navbar = () => {
           </span>
 
           <span className="text-xs lg:text-sm flex items-center gap-2">
-            <IoLocationOutline /> Shipra Suncity, Indirapuram Ghaziabad
+            <IoLocationOutline /> 8/3 & 8/4 Palm Road, Shipra Suncity,Indirapuram
           </span>
         </div>
 
