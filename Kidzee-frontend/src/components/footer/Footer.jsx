@@ -113,7 +113,7 @@ const Footer = () => {
             <h3 className="font-heading text-lg mb-4">Contact</h3>
             <ul className="font-body text-sm space-y-3 text-gray-200">
               <li>+91 9953050614</li>
-              <li>-kidzee.shiprasuncity@gmail.com</li>
+              <li>kidzee.shiprasuncity@gmail.com</li>
               <li>
                 8/3 & 8/4 Palm Road, Shipra Suncity,Indirapuram <br />
                 Ghaziabad, Uttar Pradesh
