@@ -16,7 +16,7 @@ export const sendEnquiry = async (req, res) => {
     // ✅ EMAIL CONTENT
     const mailOptions = {
       from: `"Kidzee Enquiry" <${process.env.EMAIL_USER}>`,
-      to: 'amitraj230210@gmail.com',
+      to: 'kidzee.shiprasuncity@gmail.com',
       subject: "New Enquiry Received 🚀",
       html: `
         <h2>New Enquiry Form Submission</h2>
