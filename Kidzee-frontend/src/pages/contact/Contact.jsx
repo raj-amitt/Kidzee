@@ -209,7 +209,7 @@ const Contact = () => {
               <img src={emailIcon} alt="" />
               <div>
                 <p className="font-heading">Email</p>
-                <p className="text-sm text-gray-200">info@kidzee.com</p>
+                <p className="text-sm text-gray-200">kidzee.shiprasuncity@gmail.com</p>
               </div>
             </div>
 
