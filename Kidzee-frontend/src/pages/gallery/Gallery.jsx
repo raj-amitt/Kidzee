@@ -42,6 +42,7 @@ const Gallery = () => {
                 src={`/${folder.images[0]}`}
                 alt=""
                 className="w-full h-48 object-cover rounded-lg"
+                loading="lazy"
               />
             )}
 

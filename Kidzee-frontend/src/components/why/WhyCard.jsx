@@ -6,7 +6,7 @@ const WhyCard = ({ icon, title, subtitle, description }) => {
 
       {/* Icon */}
       <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-gray-100 mb-4">
-        <img src={icon} alt={title} className=" object-contain" />
+        <img src={icon} alt={title} className=" object-contain" loading="lazy"/>
       </div>
 
       {/* Title */}

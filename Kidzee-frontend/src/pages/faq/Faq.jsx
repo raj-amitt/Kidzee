@@ -6,6 +6,32 @@ import Form from "../../assets/form.png";
 
 const faqs = [
   {
+    question: "Which is the best preschool in Indirapuram?",
+    answer:
+      "Kidzee Shipra Suncity is one of the leading preschools in Indirapuram, offering Playgroup, Nursery, Junior KG, Senior KG, and daycare programs with activity-based learning, experienced teachers, and a child-friendly environment.",
+  },
+  {
+    question: "Why choose Kidzee Shipra Suncity?",
+    answer:
+      "Kidzee Shipra Suncity follows the Pentemind Curriculum, focuses on holistic child development, provides trained teachers, CCTV-monitored classrooms, engaging activities, and a safe learning environment for every child.",
+  },
+  {
+    question: "Do you provide daycare facilities in Indirapuram?",
+    answer:
+      "Yes. Kidzee Shipra Suncity offers daycare facilities in Indirapuram with a safe, caring, and nurturing environment for children along with age-appropriate learning and recreational activities.",
+  },
+  {
+    question: "What is the right age for playgroup admission?",
+    answer:
+      "Children can typically join our Playgroup program from 1.5 to 3 years of age. Our admissions team can guide parents regarding the most suitable program based on their child's age and development.",
+  },
+  {
+    question: "Is Kidzee located near Ahinsa Khand and Niti Khand?",
+    answer:
+      "Yes. Kidzee Shipra Suncity is conveniently located in Indirapuram and is easily accessible from Ahinsa Khand, Niti Khand, Gyan Khand, Shipra Suncity, and surrounding residential areas.",
+  },
+
+  {
     question: "What age group does Kidzee Shipra Suncity cater to?",
     answer:
       "We welcome children from 1.5 years to 6 years, covering Playgroup, Nursery, Junior KG, and Senior KG.",
@@ -38,7 +64,7 @@ const faqs = [
   {
     question: "Are meals provided?",
     answer:
-      "Yes, we provide nutritious and hygienic meals/snacks planned according to children’s needs.",
+      "Yes, we provide nutritious and hygienic meals/snacks planned according to children's needs.",
   },
   {
     question: "How do you help children adjust during initial days?",
@@ -53,7 +79,7 @@ const faqs = [
   {
     question: "How can I schedule a visit or take admission?",
     answer:
-      "You can visit the school directly or contact us to schedule a tour. Our team will assist you with the complete admission process.",
+      "You can visit the school directly or contact us to schedule a school tour. Our team will assist you with the complete admission process.",
   },
 ];
 
@@ -137,7 +163,7 @@ const Faq = () => {
     <div className="flex items-center gap-4">
       <div className="w-12 h-12 rounded-xl bg-orange-100 flex items-center justify-center">
         {/* ICON */}
-        <img src={Call} alt="" />
+        <img src={Call} alt="" loading="lazy"/>
       </div>
 
       <div className="text-left">
@@ -150,7 +176,7 @@ const Faq = () => {
     <div className="flex items-center gap-4">
       <div className="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center">
         {/* ICON */}
-        <img src={Location} alt="" />
+        <img src={Location} alt="" loading="lazy" />
       </div>
 
       <div className="text-left">
@@ -165,7 +191,7 @@ const Faq = () => {
     <div className="flex items-center gap-4">
       <div className="w-12 h-12 rounded-xl bg-pink-100 flex items-center justify-center">
         {/* ICON */}
-        <img src={Form} alt="" />
+        <img src={Form} alt="" loading="lazy" />
       </div>
 
       <div className="text-left">

@@ -36,6 +36,7 @@ const FolderImages = () => {
               src={`/${img}`}
               alt=""
               className="w-full rounded-lg shadow hover:scale-105 transition duration-300"
+              loading="lazy"
             />
 
           </div>

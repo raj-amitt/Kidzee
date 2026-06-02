@@ -100,6 +100,7 @@ const FolderAdmin = () => {
               <img
                 src={`/${img}`}
                 className="w-full aspect-[4/5] object-cover rounded"
+                loading="lazy"
               />
 
               {/* DELETE BUTTON */}

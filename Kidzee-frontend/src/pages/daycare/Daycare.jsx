@@ -2,9 +2,9 @@ import React from "react";
 import Button from "../../components/button/Button";
 
 /* YOU WILL IMPORT THESE */
-import heroBg from "../../assets/hero.png";
+import bestpreschoolinindirapuramclassroom from "../../assets/best-preschool-in-indirapuram-classroom.png";
 import teddy from "../../assets/teddy.png";
-import daycareImg from "../../assets/daycare.png";
+import daycareinindirapuramfacility from "../../assets/daycare-in-indirapuram-facility.png";
 
 const Daycare = () => {
   return (
@@ -12,16 +12,17 @@ const Daycare = () => {
       {/* ================= HERO ================= */}
       <div className="relative h-[220px] md:h-[260px] flex items-center">
         <img
-          src={heroBg}
+          src={bestpreschoolinindirapuramclassroom}
           alt=""
           className="absolute inset-0 w-full h-full object-cover"
+          loading="lazy"
         />
 
         <div className="absolute inset-0 bg-black/40"></div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 text-white">
           <div className="flex items-center gap-3 mb-2">
-            <img src={teddy} alt="" className="w-10" />
+            <img src={teddy} alt="" className="w-10" loading="lazy" />
             <div>
               <p className="text-sm opacity-80">Home / Daycare</p>
               <p className="font-pecita text-yellow-300 text-2xl">
@@ -52,9 +53,10 @@ const Daycare = () => {
             </p>
 
             <img
-              src={daycareImg}
+              src={daycareinindirapuramfacility}
               alt=""
               className="rounded-2xl w-full object-cover"
+              loading="lazy"
             />
 
             <div className="mt-4">

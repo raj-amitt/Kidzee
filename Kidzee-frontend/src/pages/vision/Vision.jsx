@@ -47,7 +47,7 @@ const Vision = () => {
           </div>
 
           <div className="flex items-start gap-4">
-            <img src={icon2} alt="" />
+            <img src={icon2} alt="" loading="lazy" />
             <div>
               <h4 className="font-heading text-gray-800">Inventive Mind</h4>
               <p className="text-sm text-purple-500 font-body">
@@ -57,7 +57,7 @@ const Vision = () => {
           </div>
 
           <div className="flex items-start gap-4">
-            <img src={icon3} alt="" />
+            <img src={icon3} alt="" loading="lazy"/>
             <div>
               <h4 className="font-heading text-gray-800">Analytical Mind</h4>
               <p className="text-sm text-purple-500 font-body">
@@ -67,7 +67,7 @@ const Vision = () => {
           </div>
 
           <div className="flex items-start gap-4">
-            <img src={icon4} alt="" />
+            <img src={icon4} alt="" loading="lazy"/>
             <div>
               <h4 className="font-heading text-gray-800">Empathetic Mind</h4>
               <p className="text-sm text-purple-500 font-body">
@@ -77,7 +77,7 @@ const Vision = () => {
           </div>
 
           <div className="flex items-start gap-4">
-            <img src={icon5} alt="" />
+            <img src={icon5} alt="" loading="lazy"/>
             <div>
               <h4 className="font-heading text-gray-800">Conscientious Mind</h4>
               <p className="text-sm text-purple-500 font-body">
@@ -103,7 +103,7 @@ const Vision = () => {
 
           {/* Top Row */}
           <div className="flex items-start gap-4 mb-4">
-            <img src={star} alt="star" className="w-10 h-10" />
+            <img src={star} alt="star" className="w-10 h-10" loading="lazy"/>
 
             <div>
               <h4 className="text-red-500 font-heading">

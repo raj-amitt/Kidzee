@@ -30,6 +30,7 @@ const SingleBlog = () => {
           src={`/${blog.coverImage}`}
           className="w-full max-h-[400px] object-cover rounded mb-6"
           alt="cover"
+          loading="lazy"
         />
       )}
 
@@ -63,6 +64,7 @@ const SingleBlog = () => {
                   src={`/${img}`}
                   className="w-full rounded shadow-sm"
                   alt="blog"
+                  loading="lazy"
                 />
               ))}
             </div>

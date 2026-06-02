@@ -37,6 +37,7 @@ const Blog = () => {
             <img
               src={`/${blog.coverImage}`}
               className="w-full h-48 object-cover rounded-t"
+              loading="lazy"
             />
 
             <div className="p-4">

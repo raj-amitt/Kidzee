@@ -11,6 +11,7 @@ const ProgramCard = ({ image, title, description }) => {
           src={image}
           alt={title}
           className="w-full h-44 sm:h-48 md:h-52 object-cover"
+          loading="lazy"
         />
       </div>
 

@@ -76,6 +76,7 @@ const About = () => {
                       src={img}
                       alt={`about-${index}`}
                       className="w-full object-cover"
+                      loading="lazy"
                     />
                   </div>
                 ))}

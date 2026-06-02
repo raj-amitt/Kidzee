@@ -19,11 +19,12 @@ const Footer = () => {
         src={Bg}
         alt="footer-bg"
         className="absolute inset-0 w-full h-full object-cover -z-10"
+        loading="lazy"
       />
 
       {/* Logo */}
       <div className="absolute lg:top-0 lg:left-0">
-        <img src={Logo} alt="Kidzee" className="w-28 md:w-60" />
+        <img src={Logo} alt="Kidzee Shipra Suncity" className="w-28 md:w-60" />
       </div>
 
       {/* Content */}
@@ -34,37 +35,46 @@ const Footer = () => {
           {/* Spacer */}
           <div className="hidden md:block w-40"></div>
 
-          {/* Quick Links (NOW MATCHES NAVBAR) */}
+          {/* Quick Links */}
           <div>
             <h3 className="font-heading text-lg mb-4">Quick Links</h3>
+
             <ul className="font-body text-sm space-y-3 text-gray-200">
 
               <li>
-                <NavLink to="/" className={linkClass}>Home</NavLink>
+                <NavLink to="/" className={linkClass}>
+                  Home
+                </NavLink>
               </li>
 
               <li>
-                <NavLink to="/about" className={linkClass}>About Us</NavLink>
+                <NavLink to="/about" className={linkClass}>
+                  About Us
+                </NavLink>
               </li>
 
               <li>
-                <NavLink to="/programs" className={linkClass}>Programmes</NavLink>
+                <NavLink to="/programs" className={linkClass}>
+                  Programmes
+                </NavLink>
               </li>
 
               <li>
-                <NavLink to="/daycare" className={linkClass}>Day Care</NavLink>
+                <NavLink to="/daycare" className={linkClass}>
+                  Day Care
+                </NavLink>
               </li>
 
               <li>
-                <NavLink to="/gallery" className={linkClass}>Gallery</NavLink>
+                <NavLink to="/gallery" className={linkClass}>
+                  Gallery
+                </NavLink>
               </li>
 
-              {/* <li>
-                <NavLink to="/blog" className={linkClass}>Blog</NavLink>
-              </li> */}
-
               <li>
-                <NavLink to="/contact" className={linkClass}>Contact Us</NavLink>
+                <NavLink to="/contact" className={linkClass}>
+                  Contact Us
+                </NavLink>
               </li>
 
             </ul>
@@ -72,7 +82,10 @@ const Footer = () => {
 
           {/* Programs */}
           <div>
-            <h3 className="font-heading text-lg mb-4">Programs</h3>
+            <h3 className="font-heading text-lg mb-4">
+              Preschool Programs
+            </h3>
+
             <ul className="font-body text-sm space-y-3 text-gray-200">
 
               <li>
@@ -110,12 +123,22 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h3 className="font-heading text-lg mb-4">Contact</h3>
+            <h3 className="font-heading text-lg mb-4">
+              Contact Kidzee Shipra Suncity
+            </h3>
+
             <ul className="font-body text-sm space-y-3 text-gray-200">
               <li>+91 9953050614</li>
-              <li>kidzee.shiprasuncity@gmail.com</li>
+
               <li>
-                8/3 & 8/4 Palm Road, Shipra Suncity,Indirapuram <br />
+                kidzee.shiprasuncity@gmail.com
+              </li>
+
+              <li>
+                8/3 & 8/4 Palm Road,
+                <br />
+                Shipra Suncity, Indirapuram
+                <br />
                 Ghaziabad, Uttar Pradesh
               </li>
             </ul>
@@ -123,12 +146,54 @@ const Footer = () => {
 
         </div>
 
-        {/* Divider */}
-        <div className="border-t border-gray-400/30 mt-12 pt-6 text-center font-body text-sm text-gray-200">
-          © 2026 Kidzee 8/3 & 8/4 Palm Road, Shipra Suncity,Indirapuram. All Rights Reserved. | Admissions Open For 2026–27
+        {/* SEO SECTION */}
+        <div className="border-t border-gray-400/30 mt-12 pt-8">
+
+          <h3 className="font-heading text-xl mb-4 text-center">
+            Best Preschool & Daycare in Indirapuram
+          </h3>
+
+          <p className="font-body text-sm md:text-base text-gray-200 text-center max-w-5xl mx-auto leading-8">
+
+            Kidzee Shipra Suncity is a trusted
+            <strong> Kidzee in Indirapuram</strong> offering
+            Playgroup, Nursery, Junior KG, Senior KG and
+            daycare programs for young learners.
+
+            Parents searching for the
+            <strong> Best Preschool in Indirapuram</strong>,
+            a reliable
+            <strong> Daycare in Indirapuram</strong>, or a
+            nurturing
+            <strong> Play School in Indirapuram</strong>
+            choose Kidzee for its activity-based learning,
+            caring teachers, child-friendly infrastructure,
+            CCTV-monitored campus and holistic development
+            approach.
+
+            We proudly serve families from
+            Shipra Suncity, Ahinsa Khand, Niti Khand,
+            Gyan Khand and nearby neighborhoods across
+            Indirapuram.
+          </p>
+
+        </div>
+
+        {/* Copyright */}
+        <div className="border-t border-gray-400/30 mt-10 pt-6 text-center font-body text-sm text-gray-200">
+
+          © 2026 Kidzee Shipra Suncity, Indirapuram.
+          All Rights Reserved.
+
+          <br />
+
+          Admissions Open for Playgroup, Nursery,
+          KG & Daycare Programs 2026–27.
+
         </div>
 
       </div>
+
     </footer>
   );
 };

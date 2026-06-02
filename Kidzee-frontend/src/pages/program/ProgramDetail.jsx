@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../../components/button/Button";
 
 /* YOU WILL IMPORT THESE */
-import heroBg from "../../assets/hero.png";
+import bestpreschoolinindirapuramclassroom from "../../assets/best-preschool-in-indirapuram-classroom.png";
 import teddy from "../../assets/teddy.png";
 import programImg from "../../assets/playgroup.png";
 import nursery from "../../assets/nursery.png";
@@ -16,9 +16,10 @@ const ProgramDetail = () => {
       <div className="relative h-[220px] md:h-[260px] flex items-center">
         {/* Background */}
         <img
-          src={heroBg}
+          src={bestpreschoolinindirapuramclassroom}
           alt=""
           className="absolute inset-0 w-full h-full object-cover"
+          loading="lazy"
         />
 
         {/* Overlay */}
@@ -27,7 +28,7 @@ const ProgramDetail = () => {
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-6 text-white">
           <div className="flex items-center gap-3 mb-2">
-            <img src={teddy} alt="" className="w-10" />
+            <img src={teddy} alt="" className="w-10" loading="lazy"/>
             <div>
               <p className="text-sm opacity-80">Home / Programmes</p>
               <p className="font-pecita text-yellow-300 text-2xl">Programmes</p>
@@ -60,6 +61,7 @@ const ProgramDetail = () => {
               src={programImg}
               alt=""
               className="rounded-2xl w-full object-cover"
+              loading="lazy"
             />
 
             <div className="mt-4">
@@ -189,6 +191,7 @@ const ProgramDetail = () => {
               src={nursery}
               alt=""
               className="rounded-2xl w-full object-cover"
+              loading="lazy"
             />
 
             <div className="mt-4">
@@ -337,6 +340,7 @@ const ProgramDetail = () => {
               src={junior}
               alt=""
               className="rounded-2xl w-full object-cover"
+              loading="lazy"
             />
 
             <div className="mt-4">
@@ -472,6 +476,7 @@ const ProgramDetail = () => {
 
             <img
               src={senior}
+              loading="lazy"
               alt=""
               className="rounded-2xl w-full object-cover"
             />

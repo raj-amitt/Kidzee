@@ -235,6 +235,34 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      {/* Google Map Section */}
+<div className="max-w-7xl mx-auto mt-16">
+
+  <div className="text-center mb-8">
+    <h2 className="font-heading text-3xl text-white">
+      Visit Kidzee Shipra Suncity, Indirapuram
+    </h2>
+
+    <p className="font-body text-gray-200 mt-3">
+      8/3 & 8/4 Palm Road, Shipra Suncity,
+      Indirapuram, Ghaziabad, Uttar Pradesh
+    </p>
+  </div>
+
+  <div className="overflow-hidden rounded-2xl shadow-2xl">
+    <iframe
+      title="Kidzee Preschool & Daycare in Shipra Suncity Indirapuram"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14007.7758506275!2d77.36218129714571!3d28.63144154460116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5ae370a1dc5%3A0x3b699682a75395e5!2sKidzee%20Preschool%20%26%20Daycare%20in%20Shipra%20Suncity%2C%20Indirapuram%2C%20Ghaziabad!5e0!3m2!1sen!2sin!4v1780382137315!5m2!1sen!2sin"
+      width="100%"
+      height="450"
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    />
+  </div>
+
+</div>
     </section>
   );
 };
